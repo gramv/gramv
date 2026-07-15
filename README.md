@@ -1,5 +1,83 @@
 # Goutham Vemula
 
+
+**Full-Stack Engineer | AI Products for Hospitality**
+
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+
+---
+
+
+I build AI-powered products that solve real operational problems in the restaurant and hospitality industry. Currently focused on [SommelierAI](https://sommelierai.com) — a multi-channel restaurant platform that turns a Clover POS into an AI-driven ordering and operations system.
+
+
+---
+
+
+## Currently Building — SommelierAI
+
+
+A single AI operating layer around Clover POS. Customers order through QR codes, phone calls, or the web — every order flows into one unified kitchen system.
+
+
+```mermaid
+flowchart LR
+    M["Clover Menu"] --> AI["Restaurant AI"]
+    AI --> QR["QR Table Ordering"]
+    AI --> PH["AI Phone Ordering"]
+    AI --> WEB["Website Ordering"]
+    QR --> ORD["One Order Pipeline"]
+    PH --> ORD
+    WEB --> ORD
+    ORD --> KDS["Kitchen Display"]
+    KDS --> ST["Preparing → Ready → Served"]
+    ST --> PAY["Payment & Tracking"]
+```
+
+
+**What it does:**
+
+
+- **AI Phone Ordering** — Voice agent "Jamie" answers calls, takes takeout orders, books reservations via Twilio + Deepgram
+- **QR Table Ordering** — Guests scan, browse, ask questions ("What is vegetarian?"), and order from their phone
+- **Group Ordering** — DoorDash-style shared carts where friends order from their own devices
+- **Kitchen Display System** — Color-coded tickets, station routing, course firing, 86 board
+- **Waiter Tools** — Real-time notifications for new orders, check requests, food ready alerts
+- **Menu Intelligence** — AI-generated dietary tags, allergen detection, food & wine pairings, upsell suggestions
+- **Reservations** — Capacity-aware booking with automatic conflict detection
+- **Bilingual** — Full English + Spanish support across all channels
+
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Clover](https://img.shields.io/badge/Clover_POS-22B24C?style=flat-square)
+![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
+
+
+---
+
+
+## Featured Projects
+
+
+### Hotel Employee Onboarding System
+
+
+Enterprise-grade digital onboarding platform for the hospitality industry. Replaces paper-based I-9, W-4, and benefits enrollment with a mobile-first, bilingual digital experience.
+
+
+`50,000+ LOC` · `245+ API endpoints` · `40+ database tables` · `Production on AWS`
+
+
+- QR code recruitment → 7-step job application → 16-step onboarding portal → sequential manager approval# Goutham Vemula
+
 **Full-Stack Engineer | AI Products for Hospitality**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
